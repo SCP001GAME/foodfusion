@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "food:ender_gem",
+			"is_experimental": false,
+			"is_spawnable": false,
+			"is_summonable": true,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 0.25,
+				"width": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"teleport_owner": {},
+					"mob_effect": {
+						"effect": "nausea",
+						"amplifier": 0,
+						"duration": 20,
+						"visible": false
+					},
+					"particle_on_hit": {
+						"particle_type": "dragonbreath",
+						"on_entity_hit": true,
+						"on_other_hit": true,
+						"num_particles": 6
+					},
+					"remove_on_hit": {}
+				},
+				"power": 1.5,
+				"gravity": 0.03,
+				"angle_offset": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": "no"
+				}
+			}
+		}
+	}
+}

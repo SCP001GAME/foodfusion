@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "food:redstone_potato"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" - ",
+			" # ",
+			" + "
+		],
+		"key": {
+			"-": {
+				"item": "minecraft:redstone"
+			},
+			"#": {
+				"item": "food:ender_gem"
+			},
+			"+": {
+				"item": "minecraft:potato"
+			}
+		},
+		"unlock": [
+			{
+				"item": "food:ender_gem"
+			}
+		],
+		"result": {
+			"item": "food:redstone_potato"
+		}
+	}
+}

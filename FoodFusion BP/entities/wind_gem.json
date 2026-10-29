@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "food:wind_gem",
+			"is_experimental": false,
+			"is_spawnable": false,
+			"is_summonable": true,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": [
+							1,
+							2
+						],
+						"power_multiplier": 1,
+						"apply_knockback_to_blocking_targets": true,
+						"knockback": true,
+						"max_critical_damage": 3,
+						"min_critical_damage": 1
+					},
+					"particle_on_hit": {
+						"num_particles": 6,
+						"on_entity_hit": true,
+						"on_other_hit": true,
+						"particle_type": "snowballpoof"
+					},
+					"remove_on_hit": {}
+				},
+				"power": 2,
+				"gravity": 0.03,
+				"angle_offset": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": "no"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+			"identifier": "food:ender_gem",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:icon": "food:ender_gem",
+			"minecraft:cooldown": {
+				"duration": 1,
+				"category": "ender_gem"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 1.5,
+				"max_launch_power": 1.5
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "food:ender_gem"
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "food:feather_in_potato"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" - ",
+			" # ",
+			" + "
+		],
+		"key": {
+			"-": {
+				"item": "minecraft:feather"
+			},
+			"#": {
+				"item": "food:wind_gem"
+			},
+			"+": {
+				"item": "minecraft:baked_potato"
+			}
+		},
+		"unlock": [
+			{
+				"item": "food:wind_gem"
+			}
+		],
+		"result": {
+			"item": "food:feather_in_potato"
+		}
+	}
+}

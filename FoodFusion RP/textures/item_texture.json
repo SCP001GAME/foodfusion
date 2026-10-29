@@ -1,0 +1,51 @@
+{
+	"resource_pack_name": "Food Fusion",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"food:water_gem": {
+			"textures": "textures/food/items/water_gem"
+		},
+		"food:stone_gem": {
+			"textures": "textures/food/items/stone_gem"
+		},
+		"food:fire_gem": {
+			"textures": "textures/food/items/fire_gem"
+		},
+		"food:wind_gem": {
+			"textures": "textures/food/items/wind_gem"
+		},
+		"food:ender_gem": {
+			"textures": "textures/food/items/ender_gem"
+		},
+		"food:glowfish": {
+			"textures": "textures/food/items/glowfish"
+		},
+		"food:golden_berries": {
+			"textures": "textures/food/items/golden_berries"
+		},
+		"food:fire_fused_apple": {
+			"textures": "textures/food/items/fire_fused_apple"
+		},
+		"food:feather_in_potato": {
+			"textures": "textures/food/items/feather_in_potato"
+		},
+		"food:glowroot": {
+			"textures": "textures/food/items/glowroot"
+		},
+		"food:pufferslime": {
+			"textures": "textures/food/items/pufferslime"
+		},
+		"food:paper_bread": {
+			"textures": "textures/food/items/paper_bread"
+		},
+		"food:blazed_melon": {
+			"textures": "textures/food/items/blazed_melon"
+		},
+		"food:bone_with_carrot": {
+			"textures": "textures/food/items/bone_with_carrot"
+		},
+		"food:redstone_potato": {
+			"textures": "textures/food/items/redstone_potato"
+		}
+	}
+}

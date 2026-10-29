@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.130",
+	"animations": {
+		"animation.custom.billboard": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"query.camera_rotation(0)",
+						"query.camera_rotation(1)",
+						0
+					]
+				}
+			}
+		}
+	}
+}

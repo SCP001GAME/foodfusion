@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+			"identifier": "food:fire_fused_apple",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "food:fire_fused_apple",
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": 2.4,
+				"can_always_eat": true
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:use_modifiers": {
+				"use_duration": 1.8,
+				"movement_modifier": 0.35
+			},
+			"minecraft:compostable": {
+				"composting_chance": 60
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_food"
+				]
+			}
+		}
+	}
+}

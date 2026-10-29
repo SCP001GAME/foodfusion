@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "food:water_gem",
+			"is_experimental": false,
+			"is_spawnable": false,
+			"is_summonable": true,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"douse_fire": {},
+					"grant_xp": {
+						"maxXP": 15,
+						"minXP": 5,
+						"xp": 10
+					},
+					"spawn_chance": {
+						"first_spawn_chance": 1,
+						"first_spawn_count": 1,
+						"second_spawn_chance": 0.5,
+						"second_spawn_count": 1,
+						"spawn_mob": "minecraft:cod",
+						"spawn_definition": "minecraft:cod"
+					},
+					"particle_on_hit": {
+						"particle_type": "dripwater",
+						"num_particles": 6,
+						"on_entity_hit": true,
+						"on_other_hit": true
+					},
+					"remove_on_hit": {}
+				},
+				"power": 1.5,
+				"gravity": 0.03,
+				"angle_offset": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": "no"
+				}
+			}
+		}
+	}
+}

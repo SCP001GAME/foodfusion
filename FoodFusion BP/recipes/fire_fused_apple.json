@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "food:fire_fused_apple"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" - ",
+			" # ",
+			" + "
+		],
+		"key": {
+			"-": {
+				"item": "minecraft:fire_charge"
+			},
+			"#": {
+				"item": "food:fire_gem"
+			},
+			"+": {
+				"item": "minecraft:apple"
+			}
+		},
+		"unlock": [
+			{
+				"item": "food:fire_gem"
+			}
+		],
+		"result": {
+			"item": "food:fire_fused_apple"
+		}
+	}
+}

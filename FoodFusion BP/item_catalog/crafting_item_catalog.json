@@ -1,0 +1,43 @@
+{
+    "format_version": "1.21.130",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "food:water_gem",
+                            "name": "food:itemGroup.name.gems"
+                        },
+                        "items": [
+                            "food:water_gem",
+                            "food:stone_gem",
+                            "food:fire_gem",
+                            "food:wind_gem",
+                            "food:ender_gem"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "icon": "food:glowfish",
+                            "name": "food:itemGroup.name.fused_foods"
+                        },
+                        "items": [
+                            "food:glowfish",
+                            "food:golden_berries",
+                            "food:fire_fused_apple",
+                            "food:feather_in_potato",
+                            "food:glowroot",
+                            "food:pufferslime",
+                            "food:paper_bread",
+                            "food:blazed_melon",
+                            "food:bone_with_carrot",
+                            "food:redstone_potato"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

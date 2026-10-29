@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "food:pufferslime"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" - ",
+			" # ",
+			" + "
+		],
+		"key": {
+			"-": {
+				"item": "minecraft:slime_ball"
+			},
+			"#": {
+				"item": "food:water_gem"
+			},
+			"+": {
+				"item": "minecraft:pufferfish"
+			}
+		},
+		"unlock": [
+			{
+				"item": "food:water_gem"
+			}
+		],
+		"result": {
+			"item": "food:pufferslime"
+		}
+	}
+}

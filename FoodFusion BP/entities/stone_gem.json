@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "food:stone_gem",
+			"is_experimental": false,
+			"is_spawnable": false,
+			"is_summonable": true,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 1.25,
+				"width": 1.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": [
+							2,
+							4
+						],
+						"knockback": true,
+						"power_multiplier": 1,
+						"apply_knockback_to_blocking_targets": true,
+						"max_critical_damage": 6,
+						"min_critical_damage": 3
+					},
+					"particle_on_hit": {
+						"particle_type": "explode",
+						"on_entity_hit": true,
+						"on_other_hit": true,
+						"num_particles": 6
+					},
+					"remove_on_hit": {}
+				},
+				"power": 1,
+				"gravity": 0.05,
+				"angle_offset": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": "no"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+import "./food_effects.js";

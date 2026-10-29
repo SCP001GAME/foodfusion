@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+			"identifier": "food:wind_gem",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:icon": "food:wind_gem",
+			"minecraft:cooldown": {
+				"duration": 0.5,
+				"category": "wind_gem"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 2,
+				"max_launch_power": 2
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "food:wind_gem"
+			}
+		}
+	}
+}

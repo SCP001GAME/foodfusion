@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.130",
+	"render_controllers": {
+		"controller.render.gems": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.default"
+			],
+			"filter_lighting": true,
+			"is_hurt_color": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0
+			}
+		}
+	}
+}

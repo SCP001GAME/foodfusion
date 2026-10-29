@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "food:glowfish"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" - ",
+			" # ",
+			" + "
+		],
+		"key": {
+			"-": {
+				"item": "minecraft:glow_ink_sac"
+			},
+			"#": {
+				"item": "food:water_gem"
+			},
+			"+": {
+				"item": "minecraft:tropical_fish"
+			}
+		},
+		"unlock": [
+			{
+				"item": "food:water_gem"
+			}
+		],
+		"result": {
+			"item": "food:glowfish"
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"SCP001GAME"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			130
+		],
+		"uuid": "08f1004b-ecb2-432a-844d-866f32764442",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "fdd50162-8f30-4917-b7ef-aad12b8357cb",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
